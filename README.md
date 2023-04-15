@@ -1,3 +1,3 @@
 # Thyroid-disease-classification
 
-Video Demonstration-https://github.com/gunamanikandan/Thyroid-disease-classification/edit/main/README.md
+Video Demonstration-https:https://github.com/gunamanikandan/Thyroid-disease-classification

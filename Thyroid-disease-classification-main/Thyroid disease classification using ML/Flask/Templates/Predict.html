@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Predict</title>
+<style>
+body
+    {
+    background-image: url("Thyroid-png.jpg" );
+    background-size : auto;
+    background-color: powderblue;
+    }
+h1
+    {
+        text-align: center;
+    }
+        </style>
+</head>
+<body>
+
+        <!--<input type="image" src="Submit.png"width="100">-->
+
+        <h1>Thyroid Disease Classification</h1>
+        <a href="Home.html">
+            <button>Home</button></a>
+            <a href="Predict.html">
+                <button>Predict</button></a><br><br>
+                <form action="pred" method="post">
+					<div>
+						<label for="goitre" class="label">goitre</label>
+						<br><br>
+						<select class="custom-select" id="goitre" name="goitre">
+						<option value="1">Male</option>
+						<option value="0">Female</option>
+						</select>
+					</div>
+					<br><br>
+					<div>
+						<label for="tumor" class="label">tumor</label>
+						<br><br>
+						<select class="custom-select" id="tumor" name="tumor">
+						<option value="1">Male</option>
+						<option value="0">Female</option>
+						</select>
+					</div>
+					<br><br>
+					<div>
+						<label for="hypopituitary" class="label">hypopituitary</label>
+						<br><br>
+						<select class="custom-select" id="hypopituitary" name="hypopituitary">
+						<option value="1">Male</option>
+						<option value="0">Female</option>
+						</select>
+					</div>
+					<br><br>
+
+					<div>
+						<label for="psych" class="label">psych</label>
+						<br><br>
+						<select class="custom-select" id="psych" name="psych">
+						<option value="1">Male</option>
+						<option value="0">Female</option>
+						</select>
+					</div>
+					<br><br>
+		<label for="TSH">TSH:</label>
+		<input type="text" id="TSH" name="TSH">
+		<br><br>
+		<label for="T3">T3:</label>
+		<input type="text" id="T3" name="T3">
+		<br><br>
+		<label for="TT4">TT4:</label>
+		<input type="text" id="TT4" name="TT4">
+		<br><br>
+		<label for="T4U">T4U:</label>
+		<input type="text" id="T4U" name="T4U">
+		<br><br>
+		<label for="FTI">FTI:</label>
+		<input type="text" id="FTI" name="FTI">
+		<br><br>
+		<label for="TBG">TBG:</label>
+		<input type="text" id="TBG" name="TBG">
+		<br><br>
+
+    <button type="submit" style="background-color: rgb(35, 155, 3)">Submit</button>
+</form>
+</body>
+</html>
